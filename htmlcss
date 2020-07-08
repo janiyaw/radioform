@@ -51,12 +51,12 @@
       <p>Please select your pronouns:</p>
       <form>
         <!--HE/HIM RADIO-->
-        <label for="him">
+        <label for="hehim">
           <input type="radio" name="pronoun" id="him" /> He/Him
         </label>
         <br />
         <!--SHE/HER RADIO-->
-        <label for="her">
+        <label for="sheher">
           <input type="radio" name="gender" id="her" />
           She/Her
         </label>
@@ -88,12 +88,12 @@
         </label>
         <br />
         <!--MATURE RADIO-->
-        <label for="age">
+        <label for="mature">
           <input type="radio" name="age" id="mature" /> Mature
         </label>
         <br />
         <!--WHO WANTS TO KNOW? RADIO-->
-        <label for="age">
+        <label for="whowantstoknow">
           <input type="radio" name="age" id="whowantstoknow" /> Who wants to
           know?
         </label>
