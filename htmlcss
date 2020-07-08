@@ -8,7 +8,7 @@
     />
     <meta
       name="keywords"
-      content="radio,input type,input,type,html.form,choice,choices,select,checked"
+      content="radio,input type,input,type,html,form,choice,choices,select,checked"
     />
     <meta name="robots" content="Nofollow" />
     <title>HTML Radio Form</title>
@@ -63,7 +63,7 @@
         <br />
         <!--THEY/THEM RADIO-->
         <label for="theythem">
-          <input type="radio" name="gender" id="nonbinary" /> They/Them
+          <input type="radio" name="gender" id="theythem" /> They/Them
         </label>
         <br />
         <!--PREFER NOT TO SAY RADIO-->
@@ -78,7 +78,7 @@
       <form>
         <!--GROWN RADIO-->
         <label for="grown">
-          <input type="radio" name="age" id="" /> Grown
+          <input type="radio" name="age" id="grown" /> Grown
         </label>
         <br />
         <!--NONE OF YOUR BUSINESS RADIO-->
@@ -89,7 +89,7 @@
         <br />
         <!--MATURE RADIO-->
         <label for="age">
-          <input type="radio" name="age" id="" /> Mature
+          <input type="radio" name="age" id="mature" /> Mature
         </label>
         <br />
         <!--WHO WANTS TO KNOW? RADIO-->
