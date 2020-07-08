@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="An HTML form that implements the radio input type"
+    />
+    <meta
+      name="keywords"
+      content="radio,input type,input,type,html.form,choice,choices,select,checked"
+    />
+    <meta name="robots" content="Nofollow" />
+    <title>HTML Radio Form</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        background-color: #53d968;
+        font-family: Quicksand, sans-serif;
+      }
+      div {
+        background-color: #fadbd8;
+        padding: 30px;
+        width: 50%;
+        border-style: outset;
+        margin: auto;
+        margin-top: 30px;
+      }
+      #submit:hover {
+        background-color: black;
+        color: white;
+        border-style: solid;
+        border-radius: 105x;
+        border-color: black;
+      }
+      #submit {
+        border-radius: 10px;
+        color: black;
+        background-color: white;
+        padding: 8px;
+        margin-top: 20px;
+        width: 25%;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <p>Please select your pronouns:</p>
+      <form>
+        <!--HE/HIM RADIO-->
+        <label for="him">
+          <input type="radio" name="pronoun" id="him" /> He/Him
+        </label>
+        <br />
+        <!--SHE/HER RADIO-->
+        <label for="her">
+          <input type="radio" name="gender" id="her" />
+          She/Her
+        </label>
+        <br />
+        <!--THEY/THEM RADIO-->
+        <label for="theythem">
+          <input type="radio" name="gender" id="nonbinary" /> They/Them
+        </label>
+        <br />
+        <!--PREFER NOT TO SAY RADIO-->
+        <label for="prefernottosay">
+          <input type="radio" name="gender" id="prefernottosay" /> Prefer not to
+          say
+        </label>
+      </form>
+      <!--SELECT AGE SECTION-->
+      <p>Please select your age:</p>
+
+      <form>
+        <!--GROWN RADIO-->
+        <label for="grown">
+          <input type="radio" name="age" id="" /> Grown
+        </label>
+        <br />
+        <!--NONE OF YOUR BUSINESS RADIO-->
+        <label for="noneofyourbusiness">
+          <input type="radio" name="age" id="noneofyourbusiness" /> None of your
+          business
+        </label>
+        <br />
+        <!--MATURE RADIO-->
+        <label for="age">
+          <input type="radio" name="age" id="" /> Mature
+        </label>
+        <br />
+        <!--WHO WANTS TO KNOW? RADIO-->
+        <label for="age">
+          <input type="radio" name="age" id="whowantstoknow" /> Who wants to
+          know?
+        </label>
+      </form>
+      <!--SUBMIT CTA-->
+      <form action="#" method="get">
+        <label for="submit">
+          <input type="submit" name="submit" id="submit" />
+        </label>
+      </form>
+    </div>
+  </body>
+</html>
